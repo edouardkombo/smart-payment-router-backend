@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+.venv/
+.git/
+.gitignore
+*.log
+data/uploaded_transactions.csv
+data/smart_routing.json

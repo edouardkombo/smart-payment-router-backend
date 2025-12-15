@@ -1,0 +1,305 @@
+{
+  "generated_at": "2025-12-13T22:04:14.288347Z",
+  "segments": [
+    {
+      "segment": "BR_mastercard",
+      "country": "BR",
+      "card_brand": "mastercard",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8416584143569478,
+          "expected_fee": 3.4726899999999996,
+          "score": 145.9300951325018
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8358104137234017,
+          "expected_fee": 3.13767,
+          "score": 145.227036540041
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8297901085638065,
+          "expected_fee": 3.9952199999999993,
+          "score": 143.3008221711613
+        }
+      ]
+    },
+    {
+      "segment": "BR_visa",
+      "country": "BR",
+      "card_brand": "visa",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.824731352068391,
+          "expected_fee": 0.8596199999999999,
+          "score": 32.11313945569427
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8183930807079125,
+          "expected_fee": 0.79966,
+          "score": 31.91969536670234
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8118778808254767,
+          "expected_fee": 0.9695599999999999,
+          "score": 31.489317675402553
+        }
+      ]
+    },
+    {
+      "segment": "DE_mastercard",
+      "country": "DE",
+      "card_brand": "mastercard",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8327738846806422,
+          "expected_fee": 0.53187,
+          "score": 18.397080398790994
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8266653299628823,
+          "expected_fee": 0.50641,
+          "score": 18.283692950056317
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8203817654218319,
+          "expected_fee": 0.5900599999999999,
+          "score": 18.05721752803824
+        }
+      ]
+    },
+    {
+      "segment": "DE_visa",
+      "country": "DE",
+      "card_brand": "visa",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8364420391643634,
+          "expected_fee": 2.27436,
+          "score": 93.44806696196974
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8304401953078634,
+          "expected_fee": 2.06548,
+          "score": 92.9700959510319
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8242643830494034,
+          "expected_fee": 2.6076799999999998,
+          "score": 91.72113599617373
+        }
+      ]
+    },
+    {
+      "segment": "FR_mastercard",
+      "country": "FR",
+      "card_brand": "mastercard",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8355894549684341,
+          "expected_fee": 0.27290000000000003,
+          "score": 7.330964040212749
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8295627000781445,
+          "expected_fee": 0.2747,
+          "score": 7.274320570711114
+        },
+        {
+          "provider": "C",
+          "p_success": 0.823361725320612,
+          "expected_fee": 0.2902,
+          "score": 7.20239170041757
+        }
+      ]
+    },
+    {
+      "segment": "FR_visa",
+      "country": "FR",
+      "card_brand": "visa",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8458483439419288,
+          "expected_fee": 2.9424,
+          "score": 123.59651225371253
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8401256949860589,
+          "expected_fee": 2.6632000000000002,
+          "score": 123.01960396991441
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8342322357964631,
+          "expected_fee": 3.3811999999999998,
+          "score": 121.41994247515089
+        }
+      ]
+    },
+    {
+      "segment": "IT_mastercard",
+      "country": "IT",
+      "card_brand": "mastercard",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8437326743881359,
+          "expected_fee": 1.08211,
+          "score": 42.53043193912274
+        },
+        {
+          "provider": "B",
+          "p_success": 0.837946531812638,
+          "expected_fee": 0.99873,
+          "score": 42.314726229395255
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8319888067576259,
+          "expected_fee": 1.22718,
+          "score": 41.77832142130168
+        }
+      ]
+    },
+    {
+      "segment": "IT_visa",
+      "country": "IT",
+      "card_brand": "visa",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8357500688284987,
+          "expected_fee": 0.53871,
+          "score": 18.758759089250034
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8297280017789355,
+          "expected_fee": 0.51253,
+          "score": 18.645889561075617
+        },
+        {
+          "provider": "C",
+          "p_success": 0.823531761797262,
+          "expected_fee": 0.59798,
+          "score": 18.41736837989878
+        }
+      ]
+    },
+    {
+      "segment": "UK_mastercard",
+      "country": "UK",
+      "card_brand": "mastercard",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8536350455919139,
+          "expected_fee": 2.33402,
+          "score": 98.03638866069724
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8481495711986848,
+          "expected_fee": 2.11886,
+          "score": 97.60656658154136
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8424964441929038,
+          "expected_fee": 2.67676,
+          "score": 96.38397190820163
+        }
+      ]
+    },
+    {
+      "segment": "UK_visa",
+      "country": "UK",
+      "card_brand": "visa",
+      "routing_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "details": [
+        {
+          "provider": "A",
+          "p_success": 0.8508839051751038,
+          "expected_fee": 2.3828500000000004,
+          "score": 99.85085120678872
+        },
+        {
+          "provider": "B",
+          "p_success": 0.8453140073249169,
+          "expected_fee": 2.1625500000000004,
+          "score": 99.40192798008877
+        },
+        {
+          "provider": "C",
+          "p_success": 0.8395752841302556,
+          "expected_fee": 2.7333,
+          "score": 98.14167038825022
+        }
+      ]
+    }
+  ]
+}
