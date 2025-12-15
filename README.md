@@ -5,6 +5,9 @@ A FastAPI proof of concept that trains a simple "smart payment routing" policy f
 
 This repository is meant for demos, internal labs, and product conversations. It is not a production-ready payment router.
 
+Backend repository (source of truth for API and model behavior):
+https://github.com/edouardkombo/smart-payment-router-frontend
+
 ## Why this exists (real payment-company context)
 
 Payment companies and merchants commonly operate with multiple PSPs or acquirers. In real life, you see problems like:
@@ -236,7 +239,7 @@ Providers are sorted descending by score to create `routing_order`.
 
 ## Dataset format
 
-A sample dataset is provided at `data/sample_transactions.csv`.
+Sample datasets are provided at `data/sample_transactions.csv`, `data/sample_transactions_medium.csv`, `data/sample_transactions_large.csv`.
 
 Required columns:
 
@@ -275,5 +278,7 @@ Required columns:
 ├─ README.md
 └─ data/
    └─ sample_transactions.csv
+   └─ sample_transactions_medium.csv
+   └─ sample_transactions_large.csv
 
 ```
